@@ -1,0 +1,21 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	height:100%;
+	width:100%;
+}
+
+
+.bottom_nav_container{
+	height:56px;
+	background:#bf12h1;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:#fff;
+	padding-left:8px;
+}
