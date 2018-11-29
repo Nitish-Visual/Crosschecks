@@ -1,0 +1,76 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+$lightgrey: rgba(0,0,0,.12);
+$grey: rgba(0,0,0,.50);
+$black: rgba(0,0,0,.87);
+
+
+$primary_color: #512DA8;
+
+
+
+$text_spacing_large: 33px;
+
+
+
+#Text Colors
+
+.text_color_black{
+	
+}
+.text_color_grey{
+	color:rgba(0,0,0,.50);
+}
+.text_color_lightgrey{
+}
+
+
+
+
+.caption{
+	font-size:12px;
+	line-height:16px;
+}
+.subhead{
+	font-size:16px;
+	line-height:24px;
+}
+
+
+
+.widget .form .text_field .label{
+		margin-top: $text_spacing_large;
+	color: $grey;
+}
+.widget .form .text_field .value{
+
+}
+.widget .form .text_field .line{
+	height:2px;
+	width:82%;
+	background: $lightgrey;
+	margin-top:6px;
+}
+
+
+
+
+
+.widget .form .text_field.active .line{
+	background: $primary_color;
+}
+.widget .form .text_field.active .label{
+	color: $primary_color;
+}
+.widget .form .text_field.active .value{
+	
+}
+
+
+
