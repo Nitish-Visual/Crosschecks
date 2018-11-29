@@ -12,6 +12,7 @@ $black: rgba(0,0,0,.87);
 
 form, input, input:focus{
 border:none;
+outline:none;
 -webkit-appearance: none;
 border-bottom: 1px solid $lightgrey;
 }
