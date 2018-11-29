@@ -5,10 +5,19 @@
 	padding:0px;
 }
 
-
 $lightgrey: rgba(0,0,0,.12);
 $grey: rgba(0,0,0,.50);
 $black: rgba(0,0,0,.87);
+
+
+form, input, input:focus{
+border:none;
+-webkit-appearance: none;
+border-bottom: 1px solid $lightgrey;
+}
+
+
+
 
 
 $primary_color: #512DA8;
