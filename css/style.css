@@ -1,25 +1,32 @@
-*{
-	margin:0px;
-	padding:0px;
-}
+* {
+  margin: 0px;
+  padding: 0px; }
 
-html, body{
-	min-height:100%;
-	width:100%;
-}
-.container{
-	height:100%;
-	width:100%;
-}
+.text_color_grey {
+  color: rgba(0, 0, 0, 0.5); }
 
+.caption {
+  font-size: 12px;
+  line-height: 16px; }
 
-.bottom_nav_container{
-	height:56px;
-	background:rgb(242,230,15);
-	width:100%;
-	position:absolute;
-	bottom:0px;
-	left:0px;
-	color:#fff;
-	padding-left:8px;
-}
+.subhead {
+  font-size: 16px;
+  line-height: 24px; }
+
+.widget .form .text_field .label {
+  margin-top: 33px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.widget .form .text_field .line {
+  height: 2px;
+  width: 82%;
+  background: rgba(0, 0, 0, 0.12);
+  margin-top: 6px; }
+
+.widget .form .text_field.active .line {
+  background: #512DA8; }
+
+.widget .form .text_field.active .label {
+  color: #512DA8; }
+
+/*# sourceMappingURL=style.css.map */
